@@ -120,24 +120,4 @@ const copyFiles = async (src, dest) => {
   await fsPromises.copyFile(src, dest)
 }
 
-
-
-// function copyDir(files) {
-//   for (let i = 0; i < files.length; i++) {
-
-//     fs.copyFile(path.join(__dirname, 'files', files[i]), path.join(__dirname, 'files-copy', files[i]), (err) => {
-
-//       if (err) {
-//         console.log(err);
-//       }
-
-//     }
-//     )
-//   }
-// }
-
-
-
-
-
 replaceHTML()
